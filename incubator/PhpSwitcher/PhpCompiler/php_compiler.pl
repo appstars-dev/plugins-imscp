@@ -324,18 +324,18 @@ sub downloadSource
             print output(sprintf('php-%s archive has been successfully extracted into %s', $lVersion, $BUILD_DIR), 'ok');
 
             if($sVersion eq '4.4') {
-                my $sslArchPath = "$Bin/php$sVersion/openssl-0.9.8zf.tar.gz";
-                my $sslSrcPath = File::Spec->join($phpSrcPath, "openssl-0.9.8zf");
+                my $sslArchPath = "$Bin/php$sVersion/openssl-1.1.0.tar.gz";
+                my $sslSrcPath = File::Spec->join($phpSrcPath, "openssl-1.1.0");
 
-                print output(sprintf('Extracting OpenSSL (0.9.8zf) archive into %s ...', $phpSrcPath), 'info');
+                print output(sprintf('Extracting OpenSSL (1.1.0) archive into %s ...', $phpSrcPath), 'info');
 
                 my ($stdout, $stderr);
                 (execute("tar -xzf $sslArchPath -C $phpSrcPath/", \$stdout, \$stderr) == 0) or fatal(sprintf(
-                    "An error occurred while extracting the OpenSSL (0.9.8zf) archive: %s", $stderr
+                    "An error occurred while extracting the OpenSSL (1.1.0) archive: %s", $stderr
                 ));
 
                 print output(
-                    sprintf('OpenSSL (0.9.8zf) archive has been successfully extracted into %s', $phpSrcPath), 'ok'
+                    sprintf('OpenSSL (1.1.0) archive has been successfully extracted into %s', $phpSrcPath), 'ok'
                 );
             }
         }
