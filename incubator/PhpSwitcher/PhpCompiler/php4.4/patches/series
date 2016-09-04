@@ -1,6 +1,5 @@
 # Patches imported from: PHP5 source package available at http://snapshot.debian.org/package/php4/6%3A4.4.4-9%2Blenny1/
 # Patches refreshed for: php-4.4.9
-# For any trouble, please create a ticket at http://youtrack.i-mscp.net
 001-libtool_fixes.patch
 004-ldap_fix.patch
 005-shared_xslt.patch

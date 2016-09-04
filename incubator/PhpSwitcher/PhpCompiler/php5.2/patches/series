@@ -1,6 +1,5 @@
 # Patches imported from: PHP5 source package available at http://snapshot.debian.org/package/php5/5.2.12.dfsg.1-2/
 # Patches refreshed for: php-5.2.17
-# For any trouble, please create a ticket at http://youtrack.i-mscp.net
 001-libtool_fixes.patch
 004-ldap_fix.patch
 libtool2.2.patch

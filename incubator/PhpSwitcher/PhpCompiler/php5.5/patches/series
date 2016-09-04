@@ -1,6 +1,5 @@
 # Patches imported from: http://snapshot.debian.org/package/php5/5.5.12%2Bdfsg-2/
 # Patches refreshed for: php-5.5.24
-# For any trouble, please create a ticket at http://youtrack.i-mscp.net
 001-libtool_fixes.patch
 libtool2.2.patch
 033-we_WANT_libtool.patch
