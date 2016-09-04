@@ -75,7 +75,10 @@ my @URL_PATTERNS = (
     'http://de1.php.net/distributions/php-%s.tar.gz', 'http://de2.php.net/distributions/php-%s.tar.gz',
     'http://uk1.php.net/distributions/php-%s.tar.gz', 'http://uk3.php.net/distributions/php-%s.tar.gz',
     'http://us1.php.net/distributions/php-%s.tar.gz', 'http://us2.php.net/distributions/php-%s.tar.gz',
-    'http://us3.php.net/distributions/php-%s.tar.gz', 'http://php.net/distributions/php-%s.tar.gz'
+    'http://us3.php.net/distributions/php-%s.tar.gz', 'http://pl1.php.net/distributions/php-%s.tar.gz',
+    'http://si1.php.net/distributions/php-%s.tar.gz', 'http://ua2.php.net/distributions/php-%s.tar.gz',
+    'http://lt1.php.net/distributions/php-%s.tar.gz', 'http://fi2.php.net/distributions/php-%s.tar.gz',
+    'http://php.net/distributions/php-%s.tar.gz'
 );
 
 # Map long PHP versions to upstream version URLs
