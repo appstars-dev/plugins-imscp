@@ -46,7 +46,7 @@ iMSCP::Bootstrapper->getInstance()->boot(
 # Note: Packages are installed only if available.
 my @BUILD_DEPS = (
     'autoconf', 'autoconf2.59', 'automake', 'automake1.11', 'bison', 'chrpath', 'firebird-dev', 'firebird2.1-dev',
-    'firebird2.5-dev', 'flex', 'freetds-dev', 'language-pack-de', 'libapparmor-dev', 'libbz2-dev', 'libc-client-dev',
+    'firebird2.5-dev', 'flex', 'freetds-dev', 'libapparmor-dev', 'libbz2-dev', 'libc-client-dev',
     'libc-client2007e-dev', 'libcurl-dev', 'libcurl4-openssl-dev', 'libdb-dev', 'libedit-dev', 'libenchant-dev',
     'libexpat1-dev', 'libfreetype6-dev', 'libgcrypt11-dev', 'libgd-dev', 'libgd2-dev', 'libgd2-xpm-dev', 'libxpm-dev',
     'libglib2.0-dev', 'libgmp3-dev', 'libicu-dev', 'libjpeg-dev', 'libkrb5-dev', 'libldap2-dev', 'libmagic-dev',
