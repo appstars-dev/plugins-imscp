@@ -59,11 +59,14 @@ my @BUILD_DEPS = (
 # Map short PHP versions to long PHP versions ( last known tiny PHP versions )
 my %SHORT_TO_LONG_VERSION = (
     '4.4' => '4.4.9',
+    '5.0' => '5.0.5',
+    '5.1' => '5.1.6',
     '5.2' => '5.2.17',
     '5.3' => '5.3.29',
-    '5.4' => '5.4.40',
-    '5.5' => '5.5.24',
-    '5.6' => '5.6.8'
+    '5.4' => '5.4.45',
+    '5.5' => '5.5.38',
+    '5.6' => '5.6.25',
+    '7.0' => '7.0.10'
 );
 
 # URL patterns for PHP archives
